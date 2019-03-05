@@ -1,0 +1,12 @@
+---
+title: "EURO DB"
+output: html_notebook
+---
+
+Before you do anything: please read the README.md.
+
+```{r setup, inlcude = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
