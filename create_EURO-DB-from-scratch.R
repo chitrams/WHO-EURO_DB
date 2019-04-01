@@ -4,7 +4,7 @@
 # The best way to go about this document is to run the code chunk by chunk to make sure you know what you're doing. Then check the files generated in each folder as the data we are working with is not necessarilyy consistent.
 #
 ## Set-up of R and Python ####
-source("R_setup.r")
+source("./_scripts/R_setup.r")
 
 # Ensure your document directory == your project directory == your current working directory.
 #
