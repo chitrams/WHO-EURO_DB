@@ -32,7 +32,6 @@ As explained in the R file, make sure you have the following folders. Each folde
 ### Folders for data
 
 * `indata_raw` for all the files as given from UNICEF. These will be within subfolders.
-* `indata_index` for the 
 
 ## Steps after
 
