@@ -8,14 +8,15 @@ This document was created to assist with the automation of creating the EURO dat
 
 ## Setting up for automation
 
+- If you've received Richard's folder with UNICEF files, use `create_EURO-DB-from-scratch.R` and follow the numbered instructions below.
+- If you already have the csv files ready as outputs from the Anthro Survey Analyser (you lucky ducky), use `convert_Anthro-to-xmart.R`.
+
 1. Set the directory. Ensure you have the following folders with, preferably, the following naming convention in your directory. This makes it easier for troubleshooting as the data we are working with is not necessarily consistent. Each folder also represents the 
-2. Edit the set-up scripts. These include:
+2. Edit the code chunks related to set-up These include:
   * Set the working directory
   * Set the 'Index' document.
 
 ### Folders representing steps
-
-
 
 Each folder represents a step run in this process to automate the creation of the EURO database.
 
