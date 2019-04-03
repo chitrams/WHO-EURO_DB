@@ -20,7 +20,7 @@ source("./_scripts/R_setup.r")
 # 
 # Then ensure you have the following folders for the following uses:
 #   
-#   * `indata_index` for
+# * `_index` for
 # * `indata_JME`
 # * `indata_raw`
 # 
@@ -28,7 +28,7 @@ source("./_scripts/R_setup.r")
 
 #%% Your own set-up ----------------------------------------------
 # Set absolute path to Excel spreadhseet with index file.
-index <- read_excel("./indata_index/List_of_Datasets2019.xls")
+index <- read_excel("./_index/List_of_Datasets_2019.xls")
 
 # Set absolute path to spreadsheet with prevalence estimates from JME papers.
 prev_JME_papers <- read_excel("")
@@ -45,8 +45,8 @@ import os, pandas as pd
 who_folder = 
   
 # Set relative path to where spreadsheet with index file is.
-df_vars = pd.read_excel(who_folder / 'indata_index' / 'List_of_Datasets_2019.xls')
-exit()
+df_vars = pd.read_excel(who_folder / '_index' / 'List_of_Datasets_2019.xls')
+exit
 
 # Construct database ------------------------------------------------------------
 
@@ -226,7 +226,7 @@ dat.list <-  list.files("./6_toappend", "csv")
 dat.list <- str_replace_all(dat.list, ".csv", "") 
 lapply(dat.list, survprev_ins_titleinfo)
 
-#%%% 6.2 Tidy the data to Xmart format --------------------------------------------------------------------------
+#%%% 6.2 Tidy the data to Xmart --------------------------------------------------------------------------
 
 # This also makes it easier to format to XMart file further on.
 survprev_cleaning <- function(dat){
